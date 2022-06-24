@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h2{
+    font-size: 32px;
+}
+
 header{
     background-color: rgb(18, 42, 87);
     color: white;
@@ -12,6 +16,7 @@ header{
 .headerMenu{
 background-color: none;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 margin: 0 178.5px 0 178.5px;
@@ -42,13 +47,12 @@ margin: 0 178.5px 0 178.5px;
 
 .section1{
     background-color: none;
-    height: 100vh;
+    height: 90vh;
 
 }
 .section2{
     background-color: none;   
 }
-
 
 .containerApresentacao1{
     margin: 0;
@@ -76,7 +80,6 @@ margin: 0 178.5px 0 178.5px;
 
 .containerQuemSomos h2{
     color: rgb(18, 42, 87);
-    font-size: 32px;
     font-weight: 700;
     margin-bottom: 10px;
 
@@ -97,9 +100,6 @@ margin: 0 178.5px 0 178.5px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
-
-
 .linkSaibaMais{
     background-color: #122A57;
     display: flex;
@@ -112,6 +112,134 @@ margin: 0 178.5px 0 178.5px;
     margin-top: 10px;
     line-height: 50px;
     width: 220px;
-    
+}
 
+.section3{
+    background-color: rgb(18, 42, 87);
+}
+
+.section3 H2{
+    color: white;
+    margin: 0 178.5px 50px 178.5px;
+    padding: 50px 0 0 0 ;
+}
+
+.containerServicos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 178.5px 0 178.5px;
+    padding: 0 0 100px 0;
+}
+
+.itemServico{
+    text-align: center;
+    color: white;
+}
+
+.itemServico img{
+    width: 160px;
+    margin: 0 20px 0 20px;
+}
+
+.itemServico p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itemServico a{
+    background-color: white;
+    color: rgb(18, 42, 87);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.section4{
+    margin: 0 178.5px 0 178.5px; 
+    
+}
+
+.section4 h2{
+    color: black;
+    padding: 50px 0 0 0 ;
+}
+
+
+.containerPlanos{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 40vh;
+    
+}
+
+.section4 h2{
+   color: preto;
+}
+
+.itemPlano{
+    border: solid 5px rgb(18, 42, 87);
+    padding: 10px;
+    
+}
+
+.itemPlano ul{
+    padding: 0px 25px 0px 25px;
+    list-style: none;   
+    margin-bottom: 20px;
+}
+
+.itemPlano li::before{
+    content:"\25A0";
+    font-size: 1.5rem;
+    color: #122A57;
+    vertical-align: center;
+    padding-right: 3px;
+}
+
+.itemPlano a{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.itemPlano h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.itemPlano h3::after {
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border: 1.5px solid #122A57;
+    background-color: #122A57;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+footer{ 
+    background-color: #122A57;   
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 178.5px 0 178.5px; 
+    color: white;
 }

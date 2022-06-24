@@ -16,7 +16,7 @@
         <div class="headerMenu">
             <h1>Flex Turismos</h1>
             <ul class="listaHeader">
-                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#quemSomos">Quem Somos</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#planos">Planos</a></li>
             </ul>
@@ -35,7 +35,7 @@
         </div>
     </div>
 
-    <div class="section2 flexSection">
+    <div  id="quemSomos" class="section2 flexSection">
         <div>
             <img class="img2"  src="./images/1-quem-somos.png" alt="balcão de atendimento">
         </div>
@@ -47,25 +47,25 @@
         </div>
     </div>
 
-    <div>
+    <div id="servicos" class="section3">
         <div>
             <h2>Serviços</h2>
         </div>
 
-        <div>
-            <div>
+        <div class="containerServicos">
+            <div class="itemServico">
                 <div><img src="./images/icon-2.png" alt="hospedagens"></div>
                 <p>Hospedagens</p>
                 <a href="#">Comprar Agora</a>
             </div>
 
-            <div>
+            <div class="itemServico">
                <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
                <p>Pacotes de viagens</p>
                <a href="#">Comprar Agora</a>
             </div>
 
-            <div>
+            <div class="itemServico">
                 <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
                 <p>Roteiros personalizados</p>
                 <a href="#">Comprar Agora</a>
@@ -74,47 +74,58 @@
         </div>
     </div>
 
-    <div>
+    <div id="planos" class="section4">
 
         <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-            </ul>
-            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
+            <h2>Planos</h2>
         </div>
+        <div class="containerPlanos">
+            <div class="itemPlano plano1">
+                <h3>Plano 1</h3>
+                <hr>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <a class="linkSaibaMais" href="#">Saiba Mais!</a>
+            </div>
 
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
-        </div>
+            <div class="itemPlano plano2">
+                <h3>Plano 2</h3>
+                <hr>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                </ul>
+                <a class="linkSaibaMais" href="#">Saiba Mais!</a>
+            </div>
 
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
+            <div class="itemPlano plano3">
+                <h3>Plano 3</h3>
+                <hr>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a class="linkSaibaMais" href="#">Saiba Mais!</a>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2022 CSS Flexbox</p>
-        <p>Desenvolvido por: Lucas Notini</p>
+        <div class="footerContent">
+            <p>&copy; 2022 CSS Flexbox</p>
+            <p>Desenvolvido por: Lucas Notini</p>
+        </div>
     </footer>
+
 </body>
 </html>
