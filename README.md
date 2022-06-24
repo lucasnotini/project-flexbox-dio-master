@@ -1,10 +1,5 @@
 <h1 align="center"> 📱 Projeto Flexbox - Flex Turismos  </h1>
 
-<p align="center">
-	<img src="https://img.lovepik.com/free-template/20211026/lovepik-gradient-blue-travel-propaganda-banner-image_1333102_list.jpg" alt="Flex Turismos" title="Flex Turismos">
-</p>
-
-
 ## 💻 Sobre o projeto
 
 O objetivo desse projeto era aprender um pouco mais de **Flexbox**, que é bem utilizado no **CSS**. 
