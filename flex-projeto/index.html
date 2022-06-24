@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Turismos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+
+
 </head>
 <body>
     <header>
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
-        </ul>
+        <div class="headerMenu">
+            <h1>Flex Turismos</h1>
+            <ul class="listaHeader">
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </div>    
     </header>
 
-    <div>
-        <div>
-            <h1>Flex <br>Turismos</h1>
+    <div class="section1 flexSection">
+        <div class="containerApresentacao1">
+            <h1 class="titulo2">Flex <br>Turismos</h1>
             <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
+            <a class="linkSaibaMais" href="">Saiba Mais!</a>
         </div>
 
         <div>
-            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
+            <div ><img class="img1" src="./images/0-main.png" alt="banner de apresentação"></div>
         </div>
     </div>
 
-    <div>
+    <div class="section2 flexSection">
         <div>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+            <img class="img2"  src="./images/1-quem-somos.png" alt="balcão de atendimento">
         </div>
 
-        <div>
+        <div class="containerQuemSomos">
             <h2>Quem somos</h2>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
             <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
@@ -76,7 +83,7 @@
                 <li>Serviços de quarto</li>
                 <li>Guia turístico</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
         </div>
 
         <div>
@@ -88,7 +95,7 @@
                 <li>Roteiro de trilhas</li>
                 <li>Serviço personalizado</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
         </div>
 
         <div>
@@ -101,13 +108,13 @@
                 <li>Serviço personalizado</li>
                 <li>Área Vip</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="linkSaibaMais" href="#">Saiba Mais!</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Seu nome aqui dev</p>
+        <p>&copy; 2022 CSS Flexbox</p>
+        <p>Desenvolvido por: Lucas Notini</p>
     </footer>
 </body>
 </html>
